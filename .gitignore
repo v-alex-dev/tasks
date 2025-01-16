@@ -1,0 +1,46 @@
+# Environnements virtuels
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Fichiers de log et de test
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Settings locaux ou temporaires
+settings_local.py
+
+# Fichiers et dossiers générés par Docker
+*.env
+.env.*
+.dockerignore
+docker-compose.override.yml
+
+# Migrations Django
+*/migrations/*
+
+# Ne pas ignorer les fichiers init des migrations
+!*/migrations/__init__.py
+
+# Clé de secret et fichiers sensibles
+db.sqlite3
+*.secret
+
+# Données de la base PostgreSQL
+pgdata/
+*.sql
+*.dump
+# Fichiers système
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dépôt Git
+.git/
