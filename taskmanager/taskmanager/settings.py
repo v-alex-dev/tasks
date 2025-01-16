@@ -79,6 +79,7 @@ TEMPLATES = [
         },
     },
 ]
+
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=120),  # Durée de vie de 2 Heures
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
